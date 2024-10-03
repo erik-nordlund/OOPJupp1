@@ -19,11 +19,6 @@ public abstract class Planta {
         return height;
     }
 
-    //definierar en metod som alla klasser som implementerar detta interface måste ha
-    public interface Vatten {
-        String getVattenBehov();
-    }
-
 
     // abstrakt metod som varje underklass måste implementera
     public abstract String getVattenBehov();
